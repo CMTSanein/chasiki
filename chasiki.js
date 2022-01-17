@@ -49,7 +49,9 @@
         seconds++;
     };
 
-    setInterval(runClock, 1000);
+    window.addEventListener('DOMContentLoaded', () => {
+        setInterval(runClock, 1000);
+    });
 
     const darkModeBtn = document.getElementById('dark-btn');
     const center = document.querySelector('.center');
