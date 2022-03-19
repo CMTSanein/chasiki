@@ -1,38 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 body {
-    height: 100%;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.wrapper {
+	justify-self: center;
+	width: 99%;
+	height: 99%;
+	margin: 0 auto;
+	margin-bottom: 0.5%;
+	border: 0px 4px 4px 4px solid #39ff14;
 }
 
 .center {
-    height: 100vh;
-    display: flex;
-    font-size: 5rem;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 300;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+	height: 99vh;
+	display: flex;
+	font-size: 5rem;
+	font-family: "Rajdhani", sans-serif;
+	font-weight: 300;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 .darkmode {
-    background-color: black;
-    color: white;
+	background-color: black;
+	color: white;
+}
+
+.newmode {
+	background-color: #39ff14;
 }
 
 .btn-container {
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
 }
 
 #dark-btn {
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 2rem;
+	font-family: "Rajdhani", sans-serif;
+	font-size: 2rem;
 }
